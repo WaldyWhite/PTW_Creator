@@ -1,0 +1,13 @@
+{
+  "name": "ptw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mian.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

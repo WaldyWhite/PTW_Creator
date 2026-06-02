@@ -1,0 +1,423 @@
+.gen-info-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+
+.work-table {
+    width: 100%;
+}
+
+.gen-info-table td {
+    border: 5px solid #000;
+    padding: 6px;
+
+}
+
+.text-field {
+    width: 30vw;
+}
+
+.work-header {
+    width: 30vw;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.field-title {
+    background: #CCDFE0;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.field-label {
+    background: #CCDFE0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.field-value {
+    text-align: center;
+
+}
+
+.required-checkbox,
+.required-inf {
+    text-align: center;
+}
+
+.sub-header {
+    width: 10vw;
+    background: #CCDFE0;
+    text-align: center;
+    font-weight: 700;
+}
+
+.empty-field {
+
+    height: 32px;
+}
+
+.key-select, .empty-ftext, .date-field, .time-field {
+    width: 100%;
+    height: 3vh;
+}
+.input-container {
+    margin:  0;
+    padding-right: 8px;
+}
+.spacer-cell {
+    height: 10px;
+    border: none;
+    padding: 0;
+}
+
+.required-title,
+.fire-title,
+.hazard-title,
+.reason-title,
+.responsible-title,
+.members-title,
+.access-title,
+.badge-title,
+.vehicle-title,
+.work-title,
+.required-keys-title {
+    background: #F2F2F2;
+    vertical-align: top;
+    font-weight: 700;
+}
+
+.ppe-table {
+    vertical-align: top;
+    text-align: center;
+}
+
+.ppe-icon {
+
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.img-box {
+    padding: 10px;
+    text-align: center;
+}
+
+.hazard-note {
+    padding: 5px;
+    background: #FFFF00;
+}
+
+.members-wrapper {
+    padding: 0;
+}
+
+.members-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.members-table td {
+    border: 1px solid #000;
+    padding: 6px;
+}
+
+.member-cell {
+    height: 30px;
+}
+
+/* MEMBERS SECTION */
+.members-row td {
+    vertical-align: top;
+}
+
+
+.members-content {
+    padding: 0;
+}
+
+.members-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.members-table td {
+    border: 1px solid #000;
+    padding: 6px;
+    font-size: 12px;
+}
+
+.members-header-row {
+    background: #f3f3f3;
+}
+
+.member-header {
+    font-weight: 700;
+    text-align: center;
+}
+
+.member-data-row {
+
+    height: 32px;
+}
+
+.member-cell {
+    height: 32px;
+}
+
+.work-access-row,
+.site-title {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.keys-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+/* SECTION TITLES */
+.section-title {
+    font-weight: 700;
+    font-size: 14px;
+    background: #f3f3f3;
+    padding: 8px;
+    vertical-align: top;
+}
+
+.section-header {
+    background: #005E64;
+    padding: 8px;
+    color: #f3f3f3;
+}
+
+
+/* SECTION CONTENT */
+
+.section-content {
+
+    padding: 10px;
+    vertical-align: middle;
+}
+
+
+/* CHECKBOXES */
+.checkbox-label {
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.form-checkbox {
+    margin-right: 6px;
+    transform: scale(1.05);
+}
+
+
+/* AUTHORIZED PERSONS */
+.authorized-persons {
+    width: 80%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.authorized-persons label {
+    margin-left: 10%;
+  
+}
+
+/* VEHICLE ACCESS */
+.vehicle-access-row td,
+.vehicle-justification-row td {
+    vertical-align: top;
+}
+
+.field-label {
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+
+/* EMPTY CELL */
+.empty-cell {
+    height: 35px;
+    background: #fff;
+}
+
+
+/* WORK LOCATION HEADER */
+.work-location-header .section-header {
+    background: #f3f3f3;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+/* TABLE GLOBAL */
+
+.gen-info-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.gen-info-table td {
+    border: 1px solid #000;
+    padding: 6px;
+}
+
+/* =========================================
+   REQUIRED KEYS
+========================================= */
+
+.required-keys-row {
+    vertical-align: top;
+}
+
+.required-keys-row p {
+    margin: 0 0 8px 0;
+}
+
+.required-keys-row td[colspan] {
+    padding: 10px;
+}
+
+/* =========================================
+   REASON FOR WORK
+========================================= */
+
+.reason-row td {
+    vertical-align: top;
+}
+
+.reason-row td[colspan="14"] {
+    height: 80px;
+}
+
+/* =========================================
+   HAZARDOUS WORK
+========================================= */
+
+.hazard-row td {
+    vertical-align: top;
+}
+
+.hazard-row p {
+    margin: 0 0 8px 0;
+}
+
+.hazard-row>td:last-child {
+    padding: 10px;
+}
+
+/* =========================================
+   HAZARD TABLE
+========================================= */
+
+.hazard-row table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hazard-row table td {
+    border: 1px solid #000;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.hazard-row table tr:first-child td {
+    font-weight: 600;
+}
+
+/* =========================================
+   CHECKBOX
+========================================= */
+
+.hazard-row input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+/* =========================================
+   GENERAL TABLE FIXES
+========================================= */
+
+.gen-info-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.gen-info-table td {
+    border: 1px solid #000;
+    padding: 8px;
+    vertical-align: top;
+}
+
+/* REMOVE DEFAULT P MARGINS */
+
+.gen-info-table p {
+    margin-top: 0;
+}
+
+.reason-textarea {
+    width: 100%;
+    height: 10vh;
+}
+
+.approval-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.approval-table td {
+    border: 1px solid #000;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.approval-section-title {
+    font-size: 16px;
+    font-weight: 700;
+    background: #f3f3f3;
+}
+
+.approval-title-cell {
+    font-weight: 700;
+    height: 20px;
+}
+
+.approval-data-row td {
+    height: 80px;
+}
+
+.approval-date-cell {
+    width: 10vw;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.approval-signature-cell {
+    width: 30%;
+}
+
+.approval-table p {
+    margin: 0;
+}

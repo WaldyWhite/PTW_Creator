@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Electron
+dist/
+build/
+release/
+
+# VS Code
+.vscode/
+
+# JetBrains IDE
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Generated Word files
+output/
+generated/
+
+# Temporary files
+temp/
+tmp/
+
+# Office temporary files
+~$*.docx
+~$*.docm
+~$*.dotx
+~$*.dotm
+
+# User settings
+*.user
+*.suo
+
+# Cache
+.cache/
+
+# Coverage
+coverage/
+
+# Electron Builder
+*.blockmap
+latest.yml
+
+# Optional
+package-lock.json
