@@ -62,4 +62,4 @@ coverage/
 latest.yml
 
 # Optional
-package-lock.json
+#package-lock.json

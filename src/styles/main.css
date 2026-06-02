@@ -1,4 +1,5 @@
 .gen-info-table {
+    margin-bottom: 10px;
     width: 100%;
     border-collapse: collapse;
     font-size: 13px;
@@ -73,6 +74,7 @@
     padding-right: 8px;
 }
 .spacer-cell {
+
     height: 10px;
     border: none;
     padding: 0;
@@ -89,6 +91,7 @@
 .vehicle-title,
 .work-title,
 .required-keys-title {
+    width: 15vw;
     background: #F2F2F2;
     vertical-align: top;
     font-weight: 700;

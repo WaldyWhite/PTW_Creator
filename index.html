@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
     <title>Document Creator</title>
 </head>
 
@@ -12,375 +12,11 @@
 
     <!-- General information -->
     <table class="gen-info-table">
-        <tr class="section-row">
-            <td colspan="15" class="section-header">
-                <p>
-                    <strong>1. General information</strong>
-                </p>
-            </td>
-        </tr>
+        <div id="root"></div>
+    
+        
 
-        <!-- SITE CODE -->
-        <tr class="info-row">
-            <td class="field-title">
-                <p><strong>Site code </strong></p>
-            </td>
-            <td colspan="6" class="field-value">
-                <select class="key-select" name="in" title="in">
-
-                    <option>Select here</option>
-
-                    <option>MCZ</option>
-
-                    <option>LUPIN</option>
-
-                    <option>SLURS</option>
-
-                </select>
-            </td>
-            <td colspan="8" class="field-value">
-                <input type="text" class="text-field" placeholder="PTW no. (Ref Number):">
-            </td>
-        </tr>
-
-        <!-- START / END -->
-
-        <tr class="datetime-row">
-            <td class="field-title">
-                <p><strong>Start date </strong></p>
-            </td>
-            <td colspan="2" class="field-value">
-                <input type="date" class="date-field"  aria-label="Date">
-            </td>
-            <td colspan="2" class="field-label">
-                <p>Start time</p>
-            </td>
-            <td colspan="2" class="field-value">
-                <input type="time" class="time-field" aria-label="Time">
-            </td>
-            <td colspan="2" class="field-title">
-                <p><strong>End date</strong></p>
-            </td>
-            <td colspan="3" class="field-value">
-                <input type="date" class="date-field" aria-label="Date">
-            </td>
-            <td class="field-label">
-                <p>End time</p>
-            </td>
-            <td colspan="2" class="field-value">
-                <input type="time" class="time-field" aria-label="Time">
-            </td>
-        </tr>
-
-        <!-- SPACER -->
-
-        <tr class="spacer-row">
-            <td colspan="15" class="spacer-cell"></td>
-        </tr>
-
-        <!-- RESPONSIBLE -->
-        <tr class="responsible-header-row">
-            <td rowspan="3" class="responsible-title">
-                <p><strong>Responsible and submitted by</strong> </p>
-                <p><strong><em>*Only Green or authorized by Green</em></strong></p>
-            </td>
-            <td colspan="2" class="sub-header">
-                <p>Department</p>
-            </td>
-            <td colspan="4" class="sub-header">
-                <p>Name, first name</p>
-            </td>
-            <td colspan="2" class="sub-header">
-                <p>Mobile format e.g. +41 76 123 45 67</p>
-            </td>
-            <td colspan="6" class="sub-header">
-                <p>E-mail</p>
-            </td>
-        </tr>
-        <tr class="responsible-data-row">
-            <td colspan="2" class="field-value">
-                <select class="key-select" aria-label="Company">
-                    <option>Select here</option>
-                </select>
-            </td>
-            <td colspan="4" class="empty-field">
-                <select class="key-select" aria-label="Company">
-                    <option>Select here</option>
-                </select></td>
-            <td colspan="2" class="empty-field">
-                <div class="input-container">
-                    <input type="text" class="empty-ftext" name=""/>
-                </div>
-            </td>
-            <td colspan="6" class="empty-field">
-                <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
-            </td>
-        </tr>
-        <tr class="responsible-data-row">
-            <td colspan="2" class="field-value">
-                <select class="key-select" aria-label="Company">
-                    <option>Select here</option>
-                </select>
-            </td>
-            <td colspan="4" class="empty-field"><select class="key-select">
-                    <option>Select here</option>
-                </select></td>
-            <td colspan="2" class="empty-field">
-                <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
-            </td>
-            <td colspan="6" class="empty-field">
-                <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
-            </td>
-        </tr>
-        <!-- SPACER -->
-        <tr class="spacer-row">
-            <td colspan="15" class="spacer-cell"></td>
-        </tr>
-
-        <!-- PERSONAL INFORMATION -->
-
-        <tr class="section-row">
-            <td colspan="15" class="section-header">
-                <p>
-                    <span><strong>2. Personal information</strong></span>
-                </p>
-            </td>
-        </tr>
-
-        <!-- MEMBERS -->
-        <tr class="members-row">
-            <td class="members-title">
-                <p><strong>Involved members</strong><br /><strong><em>*Personal e-mail address is required for the
-                            automated
-                            dispatch of the annual induction. </em></strong></p>
-            </td>
-            <td colspan="14" class="members-content">
-                <table class="members-table">
-                    <tr class="members-header-row">
-                        <td class="sub-header">
-                            <p>Company</p>
-                        </td>
-                        <td class="sub-header">
-                            <p>Name</p>
-                        </td>
-                        <td class="sub-header">
-                            <p>First name</p>
-                        </td>
-                        <td class="sub-header">
-                            <p>Mobile format e.g. +4176 123 45 67</p>
-                        </td>
-                        <td class="sub-header">
-                            <p>E-mail</p>
-                        </td>
-                    </tr>
-                    <tr class="member-data-row">
-                        <td class="empty-field">
-                            <select class="key-select" id="company" aria-label="Company" >
-                                <option>Select here</option>
-                            </select>
-                        </td>
-                        <td class="empty-field">
-                            <select class="key-select" id="employee" aria-label="Employee" >
-                                <option>Select here</option>
-                            </select>
-                        </td>
-                        <td class="empty-field">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
-                        </td>
-                        <td class="empty-field">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
-                        </td>
-                        <td class="empty-field">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
-                        </td>
-                    </tr>
-                    <tr class="member-data-row">
-                        <td class="empty-field">
-                            <select class="key-select">
-                                <option>Select here</option>
-                            </select>
-                        </td>
-                        <td class="empty-field">
-                            <select class="key-select">
-                                <option>Select here</option>
-                            </select>
-                        </td>
-                        <td class="empty-field">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
-                        </td>
-                        <td class="empty-field">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
-                        </td>
-                        <td class="empty-field">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
-                        </td>
-                    </tr>
-                    <tr class="member-data-row">
-                        <td class="empty-field">
-                            <select class="key-select">
-                                <option>Select here</option>
-                            </select>
-                        </td>
-                        <td class="empty-field"> <select class="key-select">
-                                <option>Select here</option>
-                            </select>
-                        </td>
-
-                        <td class="empty-field">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
-                        </td>
-                        <td class="empty-field">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
-                        </td>
-                        <td class="empty-field">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
-                        </td>
-                    </tr>
-                    <tr class="member-data-row">
-                        <td class="empty-field">
-                            <select class="key-select">
-                                <option>Select here</option>
-                            </select>
-                        </td>
-                        <td class="empty-field">
-                            <select class="key-select">
-                                <option>Select here</option>
-                            </select>
-                        </td>
-                        <td class="empty-field">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
-                        </td>
-                        <td class="empty-field">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
-                        </td>
-                        <td class="empty-field">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
-                        </td>
-                    </tr>
-                    <tr class="member-data-row">
-                        <td class="empty-field"> <select class="key-select">
-                                <option>Select here</option>
-                            </select></td>
-                        <td class="empty-field"> <select class="key-select">
-                                <option>Select here</option>
-                            </select></td>
-                        <td class="empty-field">
-                            <div class="input-container"><input type="text" class="empty-ftext" /></div>
-                        </td>
-                        <td class="empty-field">
-                            <div class="input-container">
-                                <input type="text" class="empty-ftext" name=""/>
-                            </div>
-                        </td>
-                        <td class="empty-field">
-                            <div class="input-container">
-                                <input type="text" class="empty-ftext" name=""/>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr class="member-data-row">
-                        <td class="empty-field"> <select class="key-select">
-                                <option>Select here</option>
-                            </select></td>
-                        <td class="empty-field"> 
-                            <select class="key-select" name="sel">
-                                <option>Select here</option>
-                            </select></td>
-                        <td class="empty-field">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
-                        </td>
-                        <td class="empty-field">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
-                        </td>
-                        <td class="empty-field">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-
-        <!-- ACCESS TYPE -->
-        <tr class="access-row">
-            <td class="access-title">
-                <p><strong>Access type</strong></p>
-            </td>
-            <td colspan="14" class="section-content">
-                <label class="checkbox-label"><input type="checkbox" class="form-checkbox" /> Escorted (visitor) <input
-                        type="checkbox" class="form-checkbox" checked="checked"/>
-                    Unescorted (approved vendor)
-                </label>
-            </td>
-        </tr>
-        <!-- PERMANENT BADGE -->
-        <tr class="badge-row"></tr>
-        <td rowspan="2" class="badge-title">
-            <p><strong>Permanent badge</strong></p>
-            <p><strong><em>*Valid max. 12 months</em></strong></p>
-        </td>
-        <td colspan="14" class="section-content">
-            <p class="checkbox-label"><input type="checkbox" class="form-checkbox" name=""/> Yes <em>*Only authorized
-                    person</em> <input type="checkbox" class="form-checkbox" checked="checked" name=""/> No</p>
-        </td>
-        </tr>
-        <tr class="badge-person-row">
-            <td colspan="14" class="section-content">
-                <strong>
-                    <em>
-                        If yes, the authorized person must be indicated and must sign the PTW.
-                    </em>
-                </strong>
-
-                <div class="authorized-persons">
-
-                    <label class="checkbox-label">
-                        <input type="checkbox" class="form-checkbox">
-                        Tobias Kratt
-                    </label>
-
-                    <label class="checkbox-label">
-                        <input type="checkbox" class="form-checkbox" checked="checked">
-                        Maurice Schneider (*)
-                    </label>
-
-                    <label class="checkbox-label">
-                        <input type="checkbox" class="form-checkbox">
-                        Michael Schöngen (*)
-                    </label>
-
-                </div>
-
-                <em>*Only for annual maintenance</em>
-            </td>
-        </tr>
-
-        <!-- VEHICLE ACCESS -->
-
-        <tr class="vehicle-access-row">
-            <td rowspan="2" class="vehicle-title">
-                <p><strong>Vehicle access and perimeter parking request</strong></p>
-                <p><strong><em>* Vehicle access only permitted for loading and unloading</em></strong></p>
-            </td>
-            <td colspan="14" class="section-content">
-                <p>Is perimeter parking required during work? <input type="checkbox" class="form-checkbox" name=""/> Yes
-                    <strong class="checkbox-label"><sup>(*)</sup>
-                    </strong>
-                    <input type="checkbox" class="form-checkbox" checked="checked" name=""/> No
-                </p>
-            </td>
-        </tr>
-        <tr class="vehicle-justification-row">
-            <td colspan="6" class="section-content">
-                <p><strong><sup>(*)</sup> </strong>If yes, a justification is required. à </p>
-            </td>
-            <td colspan="8" class="empty-field"></td>
-        </tr>
-
-        <!-- SPACER -->
-        <tr class="spacer-row">
-            <td colspan="15" class="spacer-cell"></td>
-        </tr>
-        <tr class="section-row">
+    
             <td colspan="15" class="section-header">
                 <p>
                     <strong>3. Work area location - specific work detail</span>
@@ -413,13 +49,13 @@
                     </tr>
                     <tr class="work-header-row">
                         <td class="work-header">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
+                            <div class="input-container"><input type="text" class="empty-ftext" name="" /></div>
                         </td>
                         <td class="work-header">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
+                            <div class="input-container"><input type="text" class="empty-ftext" name="" /></div>
                         </td>
                         <td class="work-header">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
+                            <div class="input-container"><input type="text" class="empty-ftext" name="" /></div>
                         </td>
                         <td class="work-header">
                             <p><input type="checkbox" /></p>
@@ -427,13 +63,13 @@
                     </tr>
                     <tr class="work-header-row">
                         <td class="work-header">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
+                            <div class="input-container"><input type="text" class="empty-ftext" name="" /></div>
                         </td>
                         <td class="work-header">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
+                            <div class="input-container"><input type="text" class="empty-ftext" name="" /></div>
                         </td>
                         <td class="work-header">
-                            <div class="input-container"><input type="text" class="empty-ftext" name=""/></div>
+                            <div class="input-container"><input type="text" class="empty-ftext" name="" /></div>
                         </td>
                         <td class="work-header">
                             <p><input type="checkbox" /></p>
@@ -920,7 +556,7 @@
             <td class="approval-empty-cell"></td>
 
             <td class="approval-date-cell">
-                <input type="date" class="date-field">
+                <input type="date" class="date-field"/>
             </td>
 
             <td class="approval-signature-cell"></td>
@@ -929,5 +565,6 @@
 
     </table>
 </body>
+<script type="module" src="/src/main.jsx"></script>
 
 </html>

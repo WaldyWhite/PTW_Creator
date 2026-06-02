@@ -19,7 +19,7 @@ async function createWindow() {
     });
 
     // 3. Загрузка HTML
-    win.loadFile(path.join(__dirname, "src/index.html"));
+    win.loadURL("http://localhost:5173");
 }
 
 app.whenReady().then(createWindow);
