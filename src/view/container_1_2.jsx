@@ -1,6 +1,6 @@
-function ResponsibleContainer() {
+function Container_1_2() {
     return (
-        <table className="gen-info-table">
+        <>
             {/* RESPONSIBLE */}
             <tr className="responsible-header-row">
                 <td rowspan="3" className="responsible-title">
@@ -70,7 +70,9 @@ function ResponsibleContainer() {
                     </div>
                 </td>
             </tr>
-        </table>
+        </>
     );
 }
-export default ResponsibleContainer;
+export default Container_1_2;
+
+//1. General information ENDE

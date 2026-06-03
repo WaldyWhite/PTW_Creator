@@ -1,7 +1,8 @@
-function GeneralInformation () {
+//1. General information
+function Container_1_1 () {
     return (
    
-    <table className="gen-info-table" >
+    <>
         <tr className="section-row">
             <td colSpan="15" className="section-header">
                 <p>
@@ -62,9 +63,9 @@ function GeneralInformation () {
                 <input type="time" className="time-field" aria-label="Time"/>
             </td>
         </tr>
-    </table>
+    </>
     
     );
 }
 
-export default GeneralInformation;
+export default Container_1_1;

@@ -1,4 +1,4 @@
-function PersonalInformationSecond() {
+function Container_2_2() {
     return (
         <>
             {/* ACCESS TYPE */}
@@ -105,13 +105,17 @@ function PersonalInformationSecond() {
             </tr>
 
             <tr className="vehicle-justification-row">
-                <td colSpan="6" className="section-content">
+                <td colSpan="6" className="vehicle-text">
                     <p><strong><sup>(*)</sup></strong> If yes, a justification is required. à</p>
                 </td>
-                <td colSpan="8" className="empty-field"></td>
+                <td colSpan="8" className="empty-field vehicle-inf">
+                    <input type={"text"} className={"vehicle-inp"} name="" />
+                </td>
             </tr>
         </>
     );
 }
 
-export default PersonalInformationSecond;
+export default Container_2_2;
+
+// 2. Personal information ENDE

@@ -6,6 +6,11 @@
     font-family: Arial, sans-serif;
 }
 
+.vest-icon {
+    margin-top: 12px;
+    padding-bottom: 5px;
+}
+
 .work-table {
     width: 100%;
 }
@@ -60,6 +65,13 @@
     font-weight: 700;
 }
 
+.vehicle-text {
+    width: 20%;
+}
+.vehicle-inp {
+    width: 99%;
+    height: 3vh;
+}
 .empty-field {
 
     height: 32px;

@@ -1,4 +1,4 @@
-function PersonalInformation () {
+function Container_2_1 () {
     return (
         <>
         {/* PERSONAL INFORMATION */}
@@ -202,4 +202,4 @@ function PersonalInformation () {
   );
 }
 
-export default PersonalInformation;
+export default Container_2_1;
