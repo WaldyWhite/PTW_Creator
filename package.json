@@ -1,12 +1,12 @@
 {
   "name": "ptw",
   "version": "1.0.0",
-  "description": "",
+  "description": "PTW Creator",
   "main": "mian.js",
-"scripts": {
-  "start": "electron .",
-  "dev": "vite"
-},
+  "scripts": {
+    "start": "electron .",
+    "dev": "vite"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,6 +17,15 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^6.0.2",
+    "electron": "^42.3.2",
     "vite": "^8.0.16"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WaldyWhite/PTW_Creator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WaldyWhite/PTW_Creator/issues"
+  },
+  "homepage": "https://github.com/WaldyWhite/PTW_Creator#readme"
 }
