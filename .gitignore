@@ -63,3 +63,11 @@ latest.yml
 
 # Optional
 #package-lock.json
+
+cat <<'EOF' > .gitignore
+node_modules/
+dist/
+out/
+.env
+.DS_Store
+EOF
